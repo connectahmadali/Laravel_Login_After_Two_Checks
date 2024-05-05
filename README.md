@@ -25,6 +25,7 @@ Follow these steps to set up the project:
 
 Clone the Repository: Clone this repository to your local machine.
 Install Dependencies: Navigate to the project directory in your terminal and run the following commands to install PHP and Node.js dependencies:
+
 composer install
 npm install
 
