@@ -27,14 +27,21 @@ Clone the Repository: Clone this repository to your local machine.
 Install Dependencies: Navigate to the project directory in your terminal and run the following commands to install PHP and Node.js dependencies:
 
 composer install
+
 npm install
 
 Run Migrations: Execute the database migrations to create the necessary tables:
+
 php artisan migrate
+
 Compile Assets: Compile your assets using Laravel Mix:
+
 npm run dev
+
 Start the Server: Finally, start the Laravel development server:
+
 php artisan serve
+
 This command will start the server, and you can access your application by navigating to http://127.0.0.1:8000 in your web browser.
 
 Security Checks
