@@ -11,12 +11,19 @@ MySQL Server
 Database Configuration
 Before running the project, configure your database connection in the .env file located at the root of your project directory. Update the following variables with your MySQL database details:
 
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=YOUR_DB_NAME
+
 DB_USERNAME=root
+
 DB_PASSWORD=
+
 
 Replace YOUR_DB_NAME with the name of your database. If your MySQL server uses a different username or password, update DB_USERNAME and DB_PASSWORD accordingly.
 
